@@ -3,4 +3,4 @@
 
 EStou aprendendo a  criar sites e agora vou gerenciar meus repositóriios !
 
-Abrir o exercício 1: https://ruanjarso.github.io/html-css/Exercícios/ex001
+Abrir o exercício 1: https://ruanjarso.github.io/html-css/exrcicios/ex001
