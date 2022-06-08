@@ -22,18 +22,108 @@
 
         thead, tfoot{
             color: white;
-            background-color: gray;
+            background-color: rgb(83, 83, 83);
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color:rgb(83, 83, 83) ;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
         }
     </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
+        <caption>Populção das Unidades Federativas</caption>
         <thead>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Estado</th>
+            <th scope="col">População</th>
         </thead>
         <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
             <tr>
                 <td>São Paulo</td>
                 <td>45 919 049</td>
@@ -49,7 +139,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>
+                <th scope="row">
                     Total de habitantes
                 </th>
                 <td>00000</td>
