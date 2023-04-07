@@ -1,0 +1,28 @@
+@charset "UTF-8" ;
+
+body{
+    background-color: rgb(92, 92, 92);
+}
+
+main{
+    background-color: white;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.382);
+}
+
+h1{
+    text-align: center
+}
+
+
+
+main > img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
